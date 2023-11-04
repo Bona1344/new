@@ -15,7 +15,10 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Center(
-            child: Text("Bona github tutorial"),
+            child: Text(
+              "Bona github tutorial",
+              style: TextStyle(fontSize: 30),
+            ),
           ),
         ),
       ),
