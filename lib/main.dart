@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
           child: Center(
             child: Text(
               "Bona github tutorial",
-              style: TextStyle(fontSize: 30),
+              style: TextStyle(
+                fontSize: 30,
+                color: Colors.deepPurple,
+              ),
             ),
           ),
         ),
